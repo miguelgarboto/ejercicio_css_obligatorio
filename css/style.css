@@ -1,0 +1,54 @@
+@font-face {
+    font-family: fuente_titulo;
+    src: url(sansation_light.woff);
+  }
+}
+body{
+  background-color: gray;
+  font-family: verdana;
+}
+#caja_todo{
+  border: 10px solid#564a4a;
+  width: 98%;
+  height: 750px;
+  
+}
+#caja1{
+  border: 2px solid #564a4a;
+  padding: 4px;
+  width: 1150px;
+  height: 180px;
+  position: relative;
+  left: 25px;
+}
+#titulo1{
+background-color: #564a4a;
+  color: white;
+  width: 1159px;
+  height: 23px;
+  position: relative;
+  bottom: 20px;
+  right: 4px;
+}
+#parrafo1{
+  position: relative;
+  bottom: 20px;
+}
+
+#caja2, #caja3, #caja4, #caja5{
+  border: 1px solid #564a4a;
+  padding: 4px;
+  
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+#caja3{
+  border: 1px solid #564a4a;
+}
+#caja4{
+  border: 1px solid #564a4a;
+}
+#caja5{
+  border: 1px solid #564a4a;
+}
