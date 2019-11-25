@@ -39,6 +39,7 @@ background-color: aquamarine;
   border: 1px solid #564a4a;
   padding: 5px;
   width: 1159px;
+  height: 850px;
   position: relative;
   left: 25px;
   top: 10px;
@@ -84,12 +85,13 @@ background-color: aquamarine;
 
 #caja4{
   background-color: silver;
+  
+  height: 230px;
 }
 #caja41{
   border: 1px solid #564a4a;
-  padding: 4px;
   width: 1000px;
-  height: 200px;
+  height: 130px;
   padding: 5px;
   position: relative;
   margin-top: 10px;
@@ -116,7 +118,7 @@ background-color: aquamarine;
   border: 1px solid #564a4a;
   padding: 4px;
   width: 1000px;
-  height: 200px;
+  height: 120px;
   padding: 5px;
   position: relative;
   margin-top: 10px;
@@ -124,9 +126,16 @@ background-color: aquamarine;
   background-color: aquamarine;
 }
 
-footer{ 
-  text-align: right;
+#gato4{
+  float: right;
   position: relative;
+  border: 3px solid white;
+  padding: 5px;
+}
+}
+
+#footer{ 
   margin-bottom: 10px;
   margin-top: 50px;
+  font-style: italic;
 }
