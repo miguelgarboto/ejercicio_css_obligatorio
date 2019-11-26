@@ -4,9 +4,9 @@
   }
 
 body{
-  background-color: aqua;
+  background-color: #c3ecea;
   font-family: verdana;
-  border: 5px solid aquamarine;
+  border: 5px solid silver;
 }
 h1{
   text-align: center;
@@ -16,19 +16,21 @@ div{
 }
 
 #caja1{
-  border: 2px solid aquamarine;
+  border: 2px solid silver;
   padding: 4px;
   width: 1150px;
   position: relative;
   left: 30px;
 }
 #titulo1{
-background-color: aquamarine;
+background-color: silver;
   color: white;
   width: 1159px;
+  height: 25px;
   position: relative;
   bottom: 20px;
   right: 4px;
+  
 }
 #parrafo1{
   position: relative;
@@ -36,7 +38,7 @@ background-color: aquamarine;
 }
 
 #caja2{
-  border: 1px solid #564a4a;
+  border: 1px solid silver;
   padding: 5px;
   width: 1159px;
   height: 850px;
@@ -44,6 +46,17 @@ background-color: aquamarine;
   left: 25px;
   top: 10px;
 }
+#titulo2{
+  background-color: silver;
+    color: white;
+    width: 1170px;
+    height: 25px;
+    position: relative;
+    bottom: 21px;
+    right: 6px;
+  }
+  
+
 #caja3, #caja4, #caja5{
   border: 1px solid #564a4a;
   padding: 4px;
@@ -134,8 +147,9 @@ background-color: aquamarine;
 }
 }
 
-#footer{ 
+#pfooter{
   margin-bottom: 10px;
   margin-top: 50px;
   font-style: italic;
+  font-size: 2px;
 }
